@@ -1,0 +1,58 @@
+from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
+
+tugmalar = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="1.FOTIHA"),
+        ],
+        [
+            KeyboardButton(text="2.BAQARA"),
+        ],
+        [
+            KeyboardButton(text="3.IXLOS"),
+        ],
+        [
+            KeyboardButton(text="4.KAVSAR"),
+        ],
+        [
+            KeyboardButton(text="5.FALAQ"),
+        ],
+        [
+            KeyboardButton(text="6.ASR"),
+        ],
+        [
+            KeyboardButton(text="7.HASHAR"),
+        ],
+        [
+            KeyboardButton(text="8.NOS")
+        ],
+        [
+            KeyboardButton(text="9.AN'OM")
+        ],
+        [
+            KeyboardButton(text="10.YASIN")
+        ],
+        [
+            KeyboardButton(text="11.MUHAMMAD")
+        ],
+        [
+            KeyboardButton(text="12.QADR")
+        ],
+        [
+            KeyboardButton(text="13.ZALZAL")
+        ],
+        [
+            KeyboardButton(text="14.SHARH")
+        ],
+        [
+            KeyboardButton(text="15.QURAYSH")
+        ],
+        [
+            KeyboardButton(text="16.MO'UN")
+        ],
+        [
+            KeyboardButton(text="👈Orqaga qaytish")
+        ]
+    ],
+    resize_keyboard=True
+)
